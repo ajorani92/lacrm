@@ -1,5 +1,6 @@
 /vendor
 /.idea
 .env
+.php_cs.cache
 test.php
 composer.lock
