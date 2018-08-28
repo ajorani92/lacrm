@@ -7,7 +7,7 @@ class SearchContactsTest extends TestCase
 {
     public function testHasProperties()
     {
-        $editContact = new SearchContacts('ContactId');
+        $searchContact = new SearchContacts('ContactId');
         $this->assertArrayHasKey('ContactId', $SearchContacts->toArray());
         $this->assertArrayHasKey('FullName', $SearchContacts->toArray());
         $this->assertArrayHasKey('CompanyName', $SearchContacts->toArray());
