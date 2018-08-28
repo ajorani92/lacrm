@@ -18,5 +18,6 @@ class CreateContactTest extends TestCase
         $createContact = new CreateContact;
         $this->assertArrayHasKey('FullName', $createContact->toArray());
         $this->assertArrayHasKey('CompanyName', $createContact->toArray());
+        $this->assertArrayHasKey('CompanyId', $createContact->toArray());
     }
 }
