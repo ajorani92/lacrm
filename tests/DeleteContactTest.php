@@ -9,6 +9,6 @@ class DeleteContactTest extends TestCase
     {
         $deleteContact = new DeleteContact('contactId');
         $this->assertArrayHasKey('ContactId', $deleteContact->toArray());
-
+        
     }
 }

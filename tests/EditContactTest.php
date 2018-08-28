@@ -9,6 +9,9 @@ class EditContactTest extends TestCase
     {
         $editContact = new EditContact('ContactId');
         $this->assertArrayHasKey('ContactId', $editContact->toArray());
+        $this->assertArrayHasKey('FullName', $editContact->toArray());
+        $this->assertArrayHasKey('CompanyName', $editContact->toArray());
+        $this->assertArrayHasKey('CompanyId', $editContact->toArray());
 
     }
 }

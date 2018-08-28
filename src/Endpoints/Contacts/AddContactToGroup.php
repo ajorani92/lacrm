@@ -22,7 +22,7 @@ class AddContactToGroup extends Endpoint
      * @param $GroupName
      */
     public function __construct($ContactId, $GroupName)
-    {
+    { 
         $this->ContactId = $ContactId;
         $this->GroupName = $GroupName;
     }
