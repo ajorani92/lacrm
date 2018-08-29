@@ -19,7 +19,8 @@
         "guzzlehttp/guzzle": "^6.3",
         "vlucas/phpdotenv": "^2.5",
         "phpunit/phpunit": "^7.3",
-        "php-coveralls/php-coveralls": "^2.1"
+        "php-coveralls/php-coveralls": "^2.1",
+        "phpdocumentor/phpdocumentor": "2.*"
     },
     "suggest": {
         "guzzlehttp/guzzle": "You will need this if you don't want to write your own adapter."
