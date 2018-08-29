@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow, all" />
+    <title>Bulldog\LaCrm\Client | API</title>
+
+            <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="../../css/sami.css">
+        <script src="../../js/jquery-1.11.1.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+        <script src="../../js/typeahead.min.js"></script>
+        <script src="../../sami.js"></script>
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    
+    
+    </head>
+
+    <body id="class" data-name="class:Bulldog_LaCrm_Client" data-root-path="../../">
+            <div id="content">
+        <div id="left-column">
+                <div id="control-panel">
+                <script>
+            $('option[data-version="'+window.projectVersion+'"]').prop('selected', true);
+        </script>
+        <form id="search-form" action="../../search.html" method="GET">
+            <span class="glyphicon glyphicon-search"></span>
+            <input name="search"
+                   class="typeahead form-control"
+                   type="search"
+                   placeholder="Search">
+        </form>
+    </div>
+
+                <div id="api-tree"></div>
+
+        </div>
+        <div id="right-column">
+                <nav id="site-nav" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-elements">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../../index.html">API</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-elements">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../classes.html">Classes</a></li>
+                                            <li><a href="../../namespaces.html">Namespaces</a></li>
+                                        <li><a href="../../interfaces.html">Interfaces</a></li>
+                    <li><a href="../../traits.html">Traits</a></li>
+                    <li><a href="../../doc-index.html">Index</a></li>
+                    <li><a href="../../search.html">Search</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+                        <div class="namespace-breadcrumbs">
+            <ol class="breadcrumb">
+                <li><span class="label label-default">class</span></li>
+                        <li><a href="../../Bulldog.html">Bulldog</a></li><li class="backslash">\</li><li><a href="../../Bulldog/LaCrm.html">LaCrm</a></li><li class="backslash">\</li><li>Client</li>
+            </ol>
+        </div>
+                <div id="page-content">
+                
+    <div class="page-header">
+        <h1>
+            Client
+                
+        </h1>
+    </div>
+
+    <p>    class
+    <strong>Client</strong>
+</p>
+
+        
+    
+
+            <div class="description">
+            <p>Class Client</p>                                </div>
+    
+    
+    
+    
+            <h2>Methods</h2>
+
+            <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method___construct">__construct</a>(<a href="../../Bulldog/LaCrm/ClientInterface.html"><abbr title="Bulldog\LaCrm\ClientInterface">ClientInterface</abbr></a> $clientInterface)
+        
+                                            <p>Client constructor.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_createContact">createContact</a>(<a href="../../Bulldog/LaCrm/Endpoints/Contacts/CreateContact.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\CreateContact">CreateContact</abbr></a> $contact)
+        
+                                            <p>Create a new CreateContact.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getContact">getContact</a>(<a href="../../Bulldog/LaCrm/Endpoints/Contacts/GetContact.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\GetContact">GetContact</abbr></a> $contact)
+        
+                                            <p>Get a Contact by their Contact ID.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_editContact">editContact</a>(<a href="../../Bulldog/LaCrm/Endpoints/Contacts/EditContact.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\EditContact">EditContact</abbr></a> $contact)
+        
+                                            <p>Update information for a Contact.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_createPipeline">createPipeline</a>(<a href="../../Bulldog/LaCrm/Endpoints/Pipelines/CreatePipeline.html"><abbr title="Bulldog\LaCrm\Endpoints\Pipelines\CreatePipeline">CreatePipeline</abbr></a> $pipeline)
+        
+                                            <p>CreatePipeline function is used to attach a new pipeline to a contact or
+company in your CRM.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_updatePipelineItem">updatePipelineItem</a>(<a href="../../Bulldog/LaCrm/Endpoints/Pipelines/UpdatePipelineItem.html"><abbr title="Bulldog\LaCrm\Endpoints\Pipelines\UpdatePipelineItem">UpdatePipelineItem</abbr></a> $pipelineItem)
+        
+                                            <p>UpdatePipelineItem function is used to edit an existing pipeline item in the CRM.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_createNote">createNote</a>(<a href="../../Bulldog/LaCrm/Endpoints/CreateNote.html"><abbr title="Bulldog\LaCrm\Endpoints\CreateNote">CreateNote</abbr></a> $note)
+        
+                                            <p>CreateNote function is used to add a note to a contact's history.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_createTask">createTask</a>(<a href="../../Bulldog/LaCrm/Endpoints/CreateTask.html"><abbr title="Bulldog\LaCrm\Endpoints\CreateTask">CreateTask</abbr></a> $task)
+        
+                                            <p>CreateTask function is used to add a task in your CRM.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_createEvent">createEvent</a>(<a href="../../Bulldog/LaCrm/Endpoints/CreateEvent.html"><abbr title="Bulldog\LaCrm\Endpoints\CreateEvent">CreateEvent</abbr></a> $event)
+        
+                                            <p>CreateEvent function is used to add an event to your calendar.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addContactToGroup">addContactToGroup</a>(<a href="../../Bulldog/LaCrm/Endpoints/Contacts/AddContactToGroup.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\AddContactToGroup">AddContactToGroup</abbr></a> $contact)
+        
+                                            <p>AddContactToGroup function is used to add a contact to one of the groups in your CRM.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_searchContacts">searchContacts</a>(<a href="../../Bulldog/LaCrm/Endpoints/Contacts/SearchContacts.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\SearchContacts">SearchContacts</abbr></a> $search)
+        
+                                            <p>SearchContacts function is used to retrieve a list of contacts and
+companies that match a search.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_deleteContact">deleteContact</a>(<a href="../../Bulldog/LaCrm/Endpoints/Contacts/DeleteContact.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\DeleteContact">DeleteContact</abbr></a> $contact)
+        
+                                            <p>DeleteContact function is used to remove contacts from your CRM.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getPipelineReport">getPipelineReport</a>(<a href="../../Bulldog/LaCrm/Endpoints/Pipelines/GetPipelineReport.html"><abbr title="Bulldog\LaCrm\Endpoints\Pipelines\GetPipelineReport">GetPipelineReport</abbr></a> $pipelineReport)
+        
+                                            <p>GetPipelineReport function is used to retrieve the data from a pipeline report.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getUserInfo">getUserInfo</a>()
+        
+                                            <p>GetUserInfo function is used to retrieve meta information about your CRM account.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCustomFields">getCustomFields</a>()
+        
+                                            <p>GetCustomFields function is used to retrieve a list of all the custom
+contact/company fields you've created in your CRM</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+            </div>
+
+
+        <h2>Details</h2>
+
+            <div id="method-details">
+                    <div class="method-item">
+                    <h3 id="method___construct">
+        <div class="location">at         line 33</div>
+        <code>                    
+    <strong>__construct</strong>(<a href="../../Bulldog/LaCrm/ClientInterface.html"><abbr title="Bulldog\LaCrm\ClientInterface">ClientInterface</abbr></a> $clientInterface)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Client constructor.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Bulldog/LaCrm/ClientInterface.html"><abbr title="Bulldog\LaCrm\ClientInterface">ClientInterface</abbr></a></td>
+                <td>$clientInterface</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_createContact">
+        <div class="location">at         line 44</div>
+        <code>                    mixed
+    <strong>createContact</strong>(<a href="../../Bulldog/LaCrm/Endpoints/Contacts/CreateContact.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\CreateContact">CreateContact</abbr></a> $contact)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Create a new CreateContact.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Bulldog/LaCrm/Endpoints/Contacts/CreateContact.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\CreateContact">CreateContact</abbr></a></td>
+                <td>$contact</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getContact">
+        <div class="location">at         line 55</div>
+        <code>                    mixed
+    <strong>getContact</strong>(<a href="../../Bulldog/LaCrm/Endpoints/Contacts/GetContact.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\GetContact">GetContact</abbr></a> $contact)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get a Contact by their Contact ID.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Bulldog/LaCrm/Endpoints/Contacts/GetContact.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\GetContact">GetContact</abbr></a></td>
+                <td>$contact</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_editContact">
+        <div class="location">at         line 66</div>
+        <code>                    mixed
+    <strong>editContact</strong>(<a href="../../Bulldog/LaCrm/Endpoints/Contacts/EditContact.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\EditContact">EditContact</abbr></a> $contact)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Update information for a Contact.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Bulldog/LaCrm/Endpoints/Contacts/EditContact.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\EditContact">EditContact</abbr></a></td>
+                <td>$contact</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_createPipeline">
+        <div class="location">at         line 78</div>
+        <code>                    mixed
+    <strong>createPipeline</strong>(<a href="../../Bulldog/LaCrm/Endpoints/Pipelines/CreatePipeline.html"><abbr title="Bulldog\LaCrm\Endpoints\Pipelines\CreatePipeline">CreatePipeline</abbr></a> $pipeline)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>CreatePipeline function is used to attach a new pipeline to a contact or
+company in your CRM.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Bulldog/LaCrm/Endpoints/Pipelines/CreatePipeline.html"><abbr title="Bulldog\LaCrm\Endpoints\Pipelines\CreatePipeline">CreatePipeline</abbr></a></td>
+                <td>$pipeline</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_updatePipelineItem">
+        <div class="location">at         line 89</div>
+        <code>                    mixed
+    <strong>updatePipelineItem</strong>(<a href="../../Bulldog/LaCrm/Endpoints/Pipelines/UpdatePipelineItem.html"><abbr title="Bulldog\LaCrm\Endpoints\Pipelines\UpdatePipelineItem">UpdatePipelineItem</abbr></a> $pipelineItem)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>UpdatePipelineItem function is used to edit an existing pipeline item in the CRM.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Bulldog/LaCrm/Endpoints/Pipelines/UpdatePipelineItem.html"><abbr title="Bulldog\LaCrm\Endpoints\Pipelines\UpdatePipelineItem">UpdatePipelineItem</abbr></a></td>
+                <td>$pipelineItem</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_createNote">
+        <div class="location">at         line 100</div>
+        <code>                    mixed
+    <strong>createNote</strong>(<a href="../../Bulldog/LaCrm/Endpoints/CreateNote.html"><abbr title="Bulldog\LaCrm\Endpoints\CreateNote">CreateNote</abbr></a> $note)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>CreateNote function is used to add a note to a contact's history.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Bulldog/LaCrm/Endpoints/CreateNote.html"><abbr title="Bulldog\LaCrm\Endpoints\CreateNote">CreateNote</abbr></a></td>
+                <td>$note</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_createTask">
+        <div class="location">at         line 111</div>
+        <code>                    mixed
+    <strong>createTask</strong>(<a href="../../Bulldog/LaCrm/Endpoints/CreateTask.html"><abbr title="Bulldog\LaCrm\Endpoints\CreateTask">CreateTask</abbr></a> $task)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>CreateTask function is used to add a task in your CRM.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Bulldog/LaCrm/Endpoints/CreateTask.html"><abbr title="Bulldog\LaCrm\Endpoints\CreateTask">CreateTask</abbr></a></td>
+                <td>$task</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_createEvent">
+        <div class="location">at         line 122</div>
+        <code>                    mixed
+    <strong>createEvent</strong>(<a href="../../Bulldog/LaCrm/Endpoints/CreateEvent.html"><abbr title="Bulldog\LaCrm\Endpoints\CreateEvent">CreateEvent</abbr></a> $event)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>CreateEvent function is used to add an event to your calendar.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Bulldog/LaCrm/Endpoints/CreateEvent.html"><abbr title="Bulldog\LaCrm\Endpoints\CreateEvent">CreateEvent</abbr></a></td>
+                <td>$event</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addContactToGroup">
+        <div class="location">at         line 133</div>
+        <code>                    mixed
+    <strong>addContactToGroup</strong>(<a href="../../Bulldog/LaCrm/Endpoints/Contacts/AddContactToGroup.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\AddContactToGroup">AddContactToGroup</abbr></a> $contact)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>AddContactToGroup function is used to add a contact to one of the groups in your CRM.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Bulldog/LaCrm/Endpoints/Contacts/AddContactToGroup.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\AddContactToGroup">AddContactToGroup</abbr></a></td>
+                <td>$contact</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_searchContacts">
+        <div class="location">at         line 145</div>
+        <code>                    mixed
+    <strong>searchContacts</strong>(<a href="../../Bulldog/LaCrm/Endpoints/Contacts/SearchContacts.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\SearchContacts">SearchContacts</abbr></a> $search)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>SearchContacts function is used to retrieve a list of contacts and
+companies that match a search.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Bulldog/LaCrm/Endpoints/Contacts/SearchContacts.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\SearchContacts">SearchContacts</abbr></a></td>
+                <td>$search</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_deleteContact">
+        <div class="location">at         line 156</div>
+        <code>                    mixed
+    <strong>deleteContact</strong>(<a href="../../Bulldog/LaCrm/Endpoints/Contacts/DeleteContact.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\DeleteContact">DeleteContact</abbr></a> $contact)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>DeleteContact function is used to remove contacts from your CRM.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Bulldog/LaCrm/Endpoints/Contacts/DeleteContact.html"><abbr title="Bulldog\LaCrm\Endpoints\Contacts\DeleteContact">DeleteContact</abbr></a></td>
+                <td>$contact</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getPipelineReport">
+        <div class="location">at         line 167</div>
+        <code>                    mixed
+    <strong>getPipelineReport</strong>(<a href="../../Bulldog/LaCrm/Endpoints/Pipelines/GetPipelineReport.html"><abbr title="Bulldog\LaCrm\Endpoints\Pipelines\GetPipelineReport">GetPipelineReport</abbr></a> $pipelineReport)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>GetPipelineReport function is used to retrieve the data from a pipeline report.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Bulldog/LaCrm/Endpoints/Pipelines/GetPipelineReport.html"><abbr title="Bulldog\LaCrm\Endpoints\Pipelines\GetPipelineReport">GetPipelineReport</abbr></a></td>
+                <td>$pipelineReport</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getUserInfo">
+        <div class="location">at         line 177</div>
+        <code>                    mixed
+    <strong>getUserInfo</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>GetUserInfo function is used to retrieve meta information about your CRM account.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCustomFields">
+        <div class="location">at         line 188</div>
+        <code>                    mixed
+    <strong>getCustomFields</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>GetCustomFields function is used to retrieve a list of all the custom
+contact/company fields you've created in your CRM</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+            </div>
+
+    
+            </div>
+                <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/">Sami, the API Documentation Generator</a>.
+    </div>
+
+        </div>
+    </div>
+    </body>
+
+</html>

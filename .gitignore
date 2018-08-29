@@ -1,6 +1,8 @@
 /vendor
 /.idea
+/cache
 .env
 .php_cs.cache
 test.php
 composer.lock
+sami.phar
